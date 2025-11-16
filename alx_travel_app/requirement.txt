@@ -1,0 +1,5 @@
+Django
+djangorestframework
+django-cors-headers
+drf-yasg
+django-environ  # Using django-environ is a clean way to handle .env files
