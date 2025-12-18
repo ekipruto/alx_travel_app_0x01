@@ -48,7 +48,7 @@ INSTALLED_APPS = [
     'drf_yasg', # For Swagger documentation
     'django_cleanup.apps.CleanupConfig', # Optional, but good practice if you handle files
 
-    # 2. Your custom app
+    # 2.custom app
     'listings', 
 ]
 

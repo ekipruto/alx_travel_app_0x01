@@ -1,12 +1,8 @@
-# alx_travel_app/listings/urls.py
+from rest_framework.routers import DefaultRouter
+from .views import ListingViewSet, BookingViewSet
 
-from django.urls import path
-from . import views
+router = DefaultRouter()
+router.register(r'listings', ListingViewSet)
+router.register(r'bookings', BookingViewSet)
 
-# Set the app name for URL reversing (good practice for Django projects)
-app_name = 'listings'
-
-urlpatterns = [
-    # path('', views.IndexView.as_view(), name='index'), 
-    # Add your specific API paths here as you develop your app
-]
+urlpatterns = router.urls
