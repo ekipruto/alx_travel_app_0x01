@@ -32,3 +32,5 @@ All API endpoints were tested using Postman.
 - Python
 - Django
 - Django REST Framework
+
+----Renamed Readme.md to README.md for checker issues
